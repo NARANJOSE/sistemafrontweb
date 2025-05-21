@@ -31,7 +31,7 @@
     "eslint-plugin-vue": "^7.20.0",
     "vue-cli-plugin-vuetify": "~2.5.8",
     "vue-eslint-parser": "^9.0.0",
-    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+    "webpack-plugin-vuetify": "^3.1.1"
   },
   "eslintConfig": {
     "root": true,
