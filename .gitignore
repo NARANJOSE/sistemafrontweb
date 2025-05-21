@@ -1,9 +1,12 @@
-.DS_Store
-node_modules
-/dist
+# Node modules
+node_modules/
 
+# Build output
+dist/
+dist.zip
 
-# local env files
+# Local environment files
+.env
 .env.local
 .env.*.local
 
@@ -13,9 +16,18 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editor directories and files
-.idea
-.vscode
+# Editor config
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+
+# Optional: lock files (si usas package-lock.json o yarn.lock)
+# package-lock.json
+# yarn.lock
+
+# Otros archivos temporales
 *.suo
 *.ntvs*
 *.njsproj
