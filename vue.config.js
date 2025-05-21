@@ -1,10 +1,12 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require("@vue/cli-service");
+
 module.exports = defineConfig({
   transpileDependencies: true,
+  lintOnSave: false, // 👈 Esto desactiva el plugin de ESLint en tiempo de compilación
 
   pluginOptions: {
     vuetify: {
-			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
-		}
-  }
-})
+      // vuetify-loader config
+    },
+  },
+});
